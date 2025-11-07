@@ -10,7 +10,7 @@ const About = () => {
             <div className="relative">
               <div className="relative rounded-lg overflow-hidden shadow-2xl">
                 <img
-                  src="/logo.jpg"
+                  src={`${process.env.PUBLIC_URL}/logo.jpg`}
                   alt="Atelier de ferronnerie"
                   className="w-full h-auto"
                 />

@@ -13,7 +13,7 @@ const Hero = () => {
       id="accueil"
       className="relative min-h-screen flex items-center justify-center text-white pt-20"
       style={{
-        backgroundImage: `url('/logo.jpg')`,
+        backgroundImage: `url('${process.env.PUBLIC_URL}/logo.jpg')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
